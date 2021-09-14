@@ -8,6 +8,7 @@ git log nombre archivo // historial de las versiones
 git show nombre archivo // muestra los cambios de las versiones 
 git status // estado de los archivos 
 git config --global user.name "mi nombre" //agrega nombre usuariao al git 
+git config --global user.email "tu@mail.com"
 Volver en el tiempo:
 
 git reset // resetea a una version anterior  hay dos tipos

@@ -1,2 +1,15 @@
 este es un aarchivo inicial
 para probar git 
+comandos utiles 
+git ini  // inicia el git
+git add  nombre archivo //agrega el archivo a la ram 
+git commit -m "texto comentario de la versión" //pasa al repositorio
+git log nombre archivo // historial de las versiones
+git show nombre archivo // muestra los cambios de las versiones 
+git status // estado de los archivos 
+
+Volver en el tiempo:
+
+git reset // resetea a una version anterior  hay dos tipos
+git reset  + ID -- hard //los otros cambios o versiones no se recuperan
+git reset  + ID -- sft //los otros cambios o versiones se recuperan si existen en Ram 
